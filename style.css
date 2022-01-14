@@ -1,0 +1,47 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+    
+}
+
+body{
+    color: white;
+    background-image: url(background_image.jpg);
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.red{
+    color: red;
+}
+header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+header p{
+    font-family: Sorts Mill Goudy;
+    font-style: italic;
+    font-size: 23px;
+    vertical-align: center;
+}
+.main {
+    width: 380px;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: auto;
+    padding: 1.5% 2% 0.5%;
+}
+
+#name, #age, #email, #content {
+    width: 100%;
+    padding: 10px;
+}
+
+.button{
+    text-align: center;
+}
+
+input[type="submit"]{
+    color:#FFF;
+    background-color: red;
+    border-radius: 20px;
+    width: 40%;
+    padding: 10px;
+}
